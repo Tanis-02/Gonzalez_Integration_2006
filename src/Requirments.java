@@ -4,8 +4,17 @@
 // off things from this class that are used in the main project and update the READ ME as necessary
 import java.lang.Math;
 
+/**
+ * @author Elizabeth Gonzalez
+ * This class holds all of the requirements from the course that I could not work into the main 
+ * project.
+ */
 public class Requirments {
 
+  /**
+   * This is a method that houses all of the elements of my PSI that I have yet to work into my
+   * main method in my main class. It has most of the requirements from the previous 3 PSIs.
+   */
   public static void required() {
 
     /*List & description of Java built-in data types:
@@ -80,7 +89,7 @@ public class Requirments {
     System.out.println("Know what's old news? " + oof);
 
     int referencesRule = (24 * 2) - 6; // OPERATOR PRECEDENCE: gives the order that something
-                                       // exectues, like PEMDASs
+    // exectues, like PEMDASs
     System.out.println("What is the meaning of life? " + referencesRule);
 
     int beerAndWine = 42 / 2;
@@ -130,9 +139,9 @@ public class Requirments {
       System.out.println(treatsMyDogsGet);
       treatsMyDogsGet++;
       break; // this stops the program immedietly and then forces it to just move on to the next
-             // statement without checking the one it's on
+    // statement without checking the one it's on
     } while (treatsMyDogsGet < 3); // I love my puppies, they deserve all the treats but gotta keep
-                                   // 'em healthy too <3
+    // 'em healthy too <3
 
     /*
      * Inheritance: classes that inherit fields and methods from other classes. Inheritance makes it
@@ -141,6 +150,6 @@ public class Requirments {
      * you're creating multiple objects from the same class
      */
     
-///////////////////////////////////////////////////////////////////////////////////////////////////
+
   }
 }
